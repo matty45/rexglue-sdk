@@ -700,6 +700,7 @@ REXCRT_EXPORT(rexcrt_CompareFileTime, rex::kernel::crt::CompareFileTime_entry)
 REXCRT_EXPORT(rexcrt_CopyFileA, rex::kernel::crt::CopyFileA_entry)
 REXCRT_EXPORT(rexcrt_RemoveDirectoryA, rex::kernel::crt::RemoveDirectoryA_entry)
 REXCRT_EXPORT(rexcrt_GetFileType, rex::kernel::crt::GetFileType_entry)
+REXCRT_EXPORT(rexcrt_GetDiskFreeSpaceExA, rex::kernel::crt::GetDiskFreeSpaceExA_entry)
 
 // XAM exports -- same implementations, for games that import file I/O from xam.xex
 XAM_EXPORT(__imp__CreateFileA, rex::kernel::crt::CreateFileA_entry)
